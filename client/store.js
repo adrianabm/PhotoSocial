@@ -1,6 +1,6 @@
 import { createStore, compose } from 'redux'
+import { syncHistoryWithStore, routerReducer } from 'react-router-redux'
 import { browserHistory } from 'react-router'
-import { syncHistoryWithStore } from 'react-router-redux'
 
 import rootReducer from './reducers/index'
 import comments from './data/comments'
