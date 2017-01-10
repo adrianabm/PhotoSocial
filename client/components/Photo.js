@@ -28,7 +28,9 @@ class Photo extends Component {
         <figcaption>
           <p>{ post.caption }</p>
           <div className="control-buttons">
-            <button onClick={ this.props.addLike.bind(null, i) } className="likes">
+            <button
+              onClick={ this.props.addLike.bind(null, i) }
+              className="likes">
               &hearts; { post.likes }
             </button>
             <Link className="button" to={`/view/${post.code}`}>
