@@ -8,7 +8,7 @@ import store, { history } from './store'
 import css from './styles/style.styl'
 
 // Components
-import App from './App'
+import App from './components/App'
 import PhotoGrid from './components/PhotoGrid'
 import Single from './components/Single'
 

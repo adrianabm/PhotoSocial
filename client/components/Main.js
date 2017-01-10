@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router'
 
-class App extends Component {
+class Main extends Component {
   render() {
     return (
       <div>
         <h1><Link to="/">PhotoSocial</Link></h1>
-        { this.props.children }
+        { React.cloneElement(this.props.children, this.props) }
       </div>
     )
   }
 }
 
-export default App
+export default Main
