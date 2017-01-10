@@ -1,13 +1,21 @@
-# Learn Redux
+# PhotoSocial
 
-A simple React + Redux implementation. This will be turned into a free video series once the app is totally fleshed out.
+![photosocial](https://cloud.githubusercontent.com/assets/20054414/21826977/ee0399bc-d789-11e6-8fde-5d921c9fdc7f.png)
 
-## Running
+## About 
+Instagram Clone UI using React-Redux. It was built following the [Learn Redux](https://learnredux.com/) tutorial.
 
-First `npm install` to grab all the necessary dependencies. 
+## Getting Started
 
-Then run `npm start` and open <localhost:7770> in your browser.
+1. Clone the repository and enter the project directory
+2. Install all dependencies
 
-## Production Build
+  ```
+  npm instal
+  ```
+  
+2. Run the application - it should be available on http://localhost:8080
+  ```
+  npm start
+  ```
 
-Run `npm build` to create a distro folder and a bundle.js file.
